@@ -109,4 +109,43 @@ The program may have the following features:
 
 ### Intermediate
 
+You need to create a new project for this. This project builds on top of the
+bigginer project. All features from the bigginer project must be included in
+this project unless they have been overridden by features in this project.
+
+#### Skills
+
+In this project you will apply the following skills:
+
+- Handle errors and exceptions: Inform the user whether or not the action was
+  successful. If the action was successful, display as message indicating that.
+  If an error or exception occurs, handle it and inform the user of the failure.
+  For a CLI program, test the error cases by entering an invalid command or
+  enter an invalid position for updating or deleting. For a GUI program, just
+  display the success messages. You can use a dialog or alert component.
+- Save todos in files: Use files to store the todos. This will make the todos
+  data persist. Update the files as per user actions. This insures that the user
+  can pick up from where they left off. Use either CSV or JSON format for the
+  files.
+- Save time: Save the time at which a todo was created. Display the time to the
+  user when displaying todos. Display time in the following format:
+  - If the time is within 7 days from the current time, display how long ago
+    the time was in seconds, minutes, hours, or days.
+  - Otherwise, display the date (without time) in the locale format.
+- Use modules: Split your program into two or more files. This makes code
+  easier to maintain.
+- Select todo before action: For a CLI program, let the user select a todo from
+  the list and then decide what to do with it. This is applicable to updates
+  and deletions. This should be the only way a user can update or delete a todo.
+- Select multiple: Enable the user to select more than 1 todo and either mark
+  them as done or delete them. For a CLI program, this can be achieved by the
+  user submitting more than 1 position. For a GUI app this can be achieved by
+  clicking or long-pressing the todos.
+- Select all: Let the user select all todos and either mark them as done or
+  delete them. For a CLI program, this can be done by entering 0 (as this won't
+  be a valid position but a number still). The instructions for doing so must
+  be displayed on top of the todo list. For a GUI program, this can be done by
+  using a checkbox on top of the todo list. After the user clicks the checkbox,
+  the buttons for updating and deleting must appear (or be enabled).
+
 ### Advanced

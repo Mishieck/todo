@@ -91,6 +91,12 @@ The program must have the following features:
   display all todos. The user must then enter the position of the todo they'd
   like to delete. The program must then delete the todo. For a GUI program, each
   displayed todo must must have a delete button.
+- Clear todos: The program must allow the user to delete all todos. For a
+  CLI program, the user must enter the command for clearing todos. The
+  program must then ask the user for confirmation. After confirming, all todos
+  should be deleted. For a GUI program, there can be a clear button for this
+  purpose. When the user clicks the button, there should be a dialog asking the
+  user for confirmation. After confirmation, the todos must be cleared.
 - List update: For a GUI program, update the list every time the user adds,
   updates, or deletes a todo.
 

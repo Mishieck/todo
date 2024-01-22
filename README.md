@@ -67,8 +67,6 @@ The program must have the following features:
 - Create a todo: The user must be able to create a todo. The user must be
   able to enter the todo in the input field and submit it. 
   1. CLI: the todo can be submitted by pressing enter (or a similar command). 
-    The user should be informed that the todo was created by displaying a 
-    message.
   2. GUI: the todo can be submitted by pressing the submit button (or by pressing 
     `enter`).
 - Display todos: The program must display the todos that the user has created.

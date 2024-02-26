@@ -150,9 +150,6 @@ In this project you will apply the following skills:
   - Otherwise, display the date (without time) in the locale format.
 - Use modules: Split your program into two or more files. This makes code
   easier to maintain.
-- Select todo before action: For a CLI program, let the user select a todo from
-  the list and then decide what to do with it. This is applicable to updates
-  and deletions. This should be the only way a user can update or delete a todo.
 - Select multiple: Enable the user to select more than 1 todo and either mark
   them as done or delete them. For a CLI program, this can be achieved by the
   user submitting more than 1 position. For a GUI app this can be achieved by

@@ -21,6 +21,15 @@ This project is divided into 3 projects, bigener, intermediate, and advanced.
 The projects are prepared in increasing level of complexity. Each subsequent
 project builds on the previous project.
 
+All the projects have the following outline:
+
+- Skills: The skills you are required to have before doing the project.
+- Features: The features of the projects you be doing.
+- Tasks: The tasks you are supposed to do the tasks are of two types:
+  - Required: The tasks you have to do.
+  - Optional: The tasks you may not do.
+- Projects: Examples of projects created.
+
 ### Bigginer
 
 This project focuses on basic language features.
